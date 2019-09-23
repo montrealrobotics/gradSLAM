@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper" >
+    <div class="footer-nav">
+        {% for lesson in site.pages %}
+          {% if lesson.nav == true %}
+          <a class="page-link{% if page.url == lesson.url %} active{% endif %}" href="{{ lesson.url | absolute_url }}">{{ lesson.title | escape }}</a>
+          {% endif %}
+        {% endfor %}
+    </div>
+    </div>
+      <h2 class="footer-heading"><a href="{{ '/' | absolute_url }}">{{ site.title | escape }}</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a> <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a> - {{ site.pub_year }}.</h2> 
+  </div>
+</footer>

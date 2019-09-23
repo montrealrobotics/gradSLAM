@@ -1,0 +1,23 @@
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="keywords" content="{{ site.keywords }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
+
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:type" content="article" />
+  <meta property="article:author" content="{{ site.author }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:locale" content="en_US" />
+  <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}","author":{"@type":"Person","name":"{{ site.author }}"},"description":"{{ site.description }}","url":"{{ page.url | absolute_url }}"}</script>
+
+  <link rel="stylesheet" href="{{ '/css/main.css' | absolute_url }}">
+  
+  {% include google-analytics.html %}
+</head>
