@@ -1,13 +1,27 @@
----
----
 [
-  {% for post in site.posts %}
+  
     {
 
-      "title"    : "{% if post.title != "" %}{{ post.title | escape }}{% else %}{{ post.excerpt | strip_html |  escape | strip }}{%endif%}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "category" : "{{ post.categories | join: ', '}}",
-      "date"     : "{{ post.date | date: "%B %e, %Y" }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "title"    : "Code snippets in a blog post",
+      "url"      : "/code-snippets/",
+      "category" : "HTML, Code",
+      "date"     : "August 12, 2019"
+    } ,
+  
+    {
+
+      "title"    : "Some articles are just so long they deserve a really long title to see if things will break well",
+      "url"      : "/super-long-article/",
+      "category" : "Miscellaneous",
+      "date"     : "July 27, 2019"
+    } ,
+  
+    {
+
+      "title"    : "Introducing Reverie - A ridiculously elegant Jekyll theme",
+      "url"      : "/introducing-reverie-jekyll-theme/",
+      "category" : "Miscellaneous, Jekyll",
+      "date"     : "February 13, 2019"
+    } 
+  
 ]
