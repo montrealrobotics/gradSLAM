@@ -42,7 +42,7 @@ gradSLAM is a fully differentiable dense SLAM framework. It provides a repositor
 Specifically, we implement differentiable versions three classical dense SLAM systems using the gradSLAM framework: KinectFusion, PointFusion, ICP-SLAM. We choose these because
 * Each of these approaches sparked a new line-of-research in dense SLAM
 * The approaches themselves are fairly simple from an algorithmic standpoint
-* We wanted to provide differentiable SLAM solutions for a wide variety of 3D representations (voxels, surfels, points).
+* We aim to provide differentiable SLAM solutions for a wide variety of 3D representations (voxels, surfels, points).
 
 <div style="text-align:center">
 
@@ -54,7 +54,7 @@ Specifically, we implement differentiable versions three classical dense SLAM sy
 
 The differentiable SLAM systems perform quite similarly to the non-differentiable counterparts, while allowing for gradients to flow right through. This makes gradSLAM attractively poised to be used in gradient-based learning systems.
 
-Here's a comparitive analysis of the three differentiable SLAM systems we provide.
+Here's a comparative analysis of the three differentiable SLAM systems we provide.
 
 <div style="text-align:center">
 
