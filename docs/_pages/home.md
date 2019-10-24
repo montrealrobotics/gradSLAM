@@ -110,6 +110,8 @@ If you would like to cite us, you could use the following BibTeX entry.
 
 gradSLAM will be released as an open-source SLAM framework for PyTorch. As the manuscript is currently under review, we are eyeing a release date in the latter half of January 2020.
 
+<span style="color:blue">To be notified when code is released, one can track <a href="https://github.com/montrealrobotics/gradSLAM">this GitHub repository</a>. </span>
+
 ### Correspondence
 
 If you need to discuss any further, or seek clarifications on implementation detail, correspondence is encouraged to [Krishna Murthy](https://krrish94.github.io), [Ganesh Iyer](https://epiception.github.io/), or [Liam Paull](http://liampaull.ca). Also, we would like to hear more from anyone working on similar ideas.
