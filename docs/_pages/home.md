@@ -91,6 +91,8 @@ A preprint is currently available on arXiv, at the following link. Click on the 
 alt="Click to access the preprint."/></a>
 </div>
 
+<b>The paper has been accepted for publication at the international conference on robotics and automation (ICRA), 2020. </b>
+
 
 ### Citing us
 
@@ -100,15 +102,17 @@ If you would like to cite us, you could use the following BibTeX entry.
 @article{gradslam,
     author  = { Krishna Murthy, J. and Iyer, Ganesh and Paull, Liam },
     title   = { gradSLAM: Dense SLAM meets Automatic Differentiation },
-    journal = { arXiv },
-    year    = { 2019 },
+    journal = { ICRA (to appear) },
+    year    = { 2020 },
 }
 ```
 
 
 ### Code
 
-gradSLAM will be released as an open-source SLAM framework for PyTorch. As the manuscript is currently under review, we are eyeing a release date in the latter half of January 2020.
+gradSLAM will be released as an open-source SLAM framework for PyTorch. 
+<s> As the manuscript is currently under review, we are eyeing a release date in the latter half of January 2020. </s>
+We are working on a full code release, and it's taking longer than expected. Estimated release month: April.
 
 <span style="color:blue">To be notified when code is released, one can track <a href="https://github.com/montrealrobotics/gradSLAM">this GitHub repository</a>. </span>
 
