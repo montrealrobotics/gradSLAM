@@ -5,6 +5,12 @@ date: 2019-10-23
 permalink: /
 ---
 
+
+# Page deprecated
+
+> <span style="font-size:0.7em;"> You are being redirected to our new homepage: [https://gradslam.github.io](https://gradslam.github.io) for more details. </span>
+
+
 ### Abstract
 
 > <span style="font-size:0.7em;"> The question of "representation" is central in the context of dense simultaneous localization and mapping (SLAM). Newer learning-based approaches have the potential to leverage data or task performance to directly inform the choice of representation. However, learning representations for SLAM has been an open question, because traditional SLAM systems are not end-to-end differentiable. </span> 
